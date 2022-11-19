@@ -1,0 +1,156 @@
+<!Doctype HTML>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+	
+	<div id="mySidenav" class="sidenav">
+	<p class="logo"><span>IBM</span>--Crop_Production</p>
+  <a href="https://us3.ca.analytics.ibm.com/bi/?perspective=dashboard&pathRef=.my_folders%2FCrop_production%2BDashboard&action=view&mode=dashboard&subView=model000001848a733b26_00000000" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
+  <a href="#"class="icon-a"><i class="fa fa-users icons"></i> &nbsp;&nbsp;Customers</a>
+  <a href="https://us3.ca.analytics.ibm.com/bi/?perspective=story&pathRef=.my_folders%2FCrop_production%2Bstory&action=view&sceneId=model00000184908f5625_00000000&sceneTime=0"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Story</a>
+  <a href="https://us3.ca.analytics.ibm.com/bi/?pathRef=.my_folders%2FCrop_production%2BReport&action=run&format=HTML&prompt=false"class="icon-a"><i class="fa fa-list-alt icons"></i> &nbsp;&nbsp;Report</a>
+  <a href="https://www.kaggle.com/datasets/abhinand05/crop-production-in-india"class="icon-a"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Data</a>
+  <a href="#"class="icon-a"><i class="fa fa-user icons"></i> &nbsp;&nbsp;Accounts</a>
+  <a href="#"class="icon-a"><i class="fa fa-list-alt icons"></i> &nbsp;&nbsp;Tasks</a>
+
+</div>
+<div id="main">
+
+	<div class="head">
+		<div class="col-div-6">
+<span style="font-size:30px;cursor:pointer; color: white;" class="nav"  >&#9776; Dashboard</span>
+<span style="font-size:30px;cursor:pointer; color: white;" class="nav2"  >&#9776; Dashboard</span>
+</div>
+	
+	<div class="col-div-6">
+	<div class="profile">
+
+		<img src="images/user.png" class="pro-img" />
+		<p>USER <span>DOB</span></p>
+	</div>
+</div>
+	<div class="clearfix"></div>
+</div>
+
+	<div class="clearfix"></div>
+	<br/>
+	
+	<div class="col-div-3">
+		<div class="box">
+			<p>98<br/><span>DASHBOARD</span></p>
+			<i class="fa fa-users box-icon"></i>
+		</div>
+	</div>
+	<div class="col-div-3">
+		<div class="box">
+			<p>92<br/><span>REPORT</span></p>
+			<i class="fa fa-list box-icon"></i>
+		</div>
+	</div>
+	<div class="col-div-3">
+		<div class="box">
+			<p>99<br/><span>STORY</span></p>
+			<i class="fa fa-list box-icon"></i>
+		</div>
+	</div>
+	<div class="col-div-3">
+		<div class="box">
+			<p>78<br/><span>TASKS</span></p>
+			<i class="fa fa-tasks box-icon"></i>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<br/><br/>
+	<div class="col-div-8">
+		<div class="box-8">
+		<div class="content-box">
+			<p>Visualization Charts <span>View All</span></p>
+			<br/>
+			<table>
+  <tr>
+    <th>CONTENT</th>
+  </tr>
+  <tr>
+    <td>*Seasons With Average Productions</td>
+  </tr>
+  <tr>
+    <td>*With Years Usage Of Area And Production</td>
+  </tr>
+  <tr>
+    <td>*Top 10 States With Most Area</td>
+  </tr>
+  <tr>
+    <td>*State With Crop Production</td>
+  </tr>
+  <tr>
+  	<td>*States With The Crop Production Along With Season </td>
+  </tr>
+  
+  
+</table>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-div-4">
+		<div class="box-4">
+		<div class="content-box">
+			<p>Total View <span>View All</span></p>
+
+			<div class="circle-wrap">
+    <div class="circle">
+      <div class="mask full">
+        <div class="fill"></div>
+      </div>
+      <div class="mask half">
+        <div class="fill"></div>
+      </div>
+      <div class="inside-circle"> 84% </div>
+    </div>
+  </div>
+		</div>
+	</div>
+	</div>
+		
+	<div class="clearfix"></div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+  $(".nav").click(function(){
+    $("#mySidenav").css('width','70px');
+    $("#main").css('margin-left','70px');
+    $(".logo").css('visibility', 'hidden');
+    $(".logo span").css('visibility', 'visible');
+     $(".logo span").css('margin-left', '-10px');
+     $(".icon-a").css('visibility', 'hidden');
+     $(".icons").css('visibility', 'visible');
+     $(".icons").css('margin-left', '-8px');
+      $(".nav").css('display','none');
+      $(".nav2").css('display','block');
+  });
+
+$(".nav2").click(function(){
+    $("#mySidenav").css('width','300px');
+    $("#main").css('margin-left','300px');
+    $(".logo").css('visibility', 'visible');
+     $(".icon-a").css('visibility', 'visible');
+     $(".icons").css('visibility', 'visible');
+     $(".nav").css('display','block');
+      $(".nav2").css('display','none');
+ });
+
+</script>
+
+</body>
+
+
+</html>
